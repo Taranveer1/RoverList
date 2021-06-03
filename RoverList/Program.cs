@@ -76,8 +76,8 @@ namespace RoverList
             System.Console.ReadLine();
 
             list.Clear();
+            list.ListNodes();
 
-          
 
             // TODO:  Implement the RoverList class
             // TODO:  Create a RoverList and then fill it with 16 words
