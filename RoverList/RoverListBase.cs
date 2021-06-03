@@ -13,6 +13,7 @@ namespace RoverList
         {
             public T Data { get; set; }
             public Node Next;
+            internal object next;
 
             public Node (T data)
             {
